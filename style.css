@@ -1,0 +1,126 @@
+/* 全体のフォントと背景 */
+body {
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+  background: #fffbea; /* 柔らかいクリームイエロー */
+  color: #4a4a4a;
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 1em 2em;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* 見出し */
+h1 {
+  color: #d49e00; /* 濃いめのマスタードイエロー */
+  border-bottom: 3px solid #d49e00;
+  padding-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 2.4em;
+  margin-bottom: 0.8em;
+  text-shadow: 1px 1px 0 #f7e765;
+}
+
+h2 {
+  color: #b38500; /* 少し落ち着いたイエロー */
+  border-left: 5px solid #f7d849;
+  padding-left: 0.7em;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+h3 {
+  color: #b38500;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+/* 段落 */
+p {
+  margin: 0.8em 0;
+  font-size: 1.05em;
+}
+
+/* リスト */
+ul, ol {
+  margin-left: 1.3em;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+  font-size: 1.05em;
+}
+
+/* 強調 */
+strong {
+  color: #a36600;
+  font-weight: 700;
+}
+
+/* リンク */
+a {
+  color: #d49e00;
+  text-decoration: none;
+  border-bottom: 1.5px solid #f7d849;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+a:hover {
+  color: #b38500;
+  border-color: #d49e00;
+}
+
+/* コードブロックや引用など */
+code, pre {
+  background-color: #fff7b2;
+  border: 1px solid #f7e765;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95em;
+  color: #7a5900;
+}
+
+/* 表 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+th, td {
+  border: 1px solid #f7d849;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+th {
+  background-color: #f7e765;
+  color: #5a4500;
+}
+
+/* ボックス (もし使うなら) */
+.box-warning {
+  background-color: #fff5cc;
+  border-left: 6px solid #d49e00;
+  padding: 1em 1.5em;
+  margin: 1em 0;
+  color: #665300;
+  font-weight: 600;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+    margin: 1em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+}
