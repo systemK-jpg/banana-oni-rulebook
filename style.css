@@ -42,7 +42,7 @@ h3 {
 /* 段落 */
 p {
   margin: 0.8em 0;
-  font-size: 1.05em;
+  font-size: 1.0em;
 }
 
 /* リスト */
@@ -53,7 +53,7 @@ ul, ol {
 
 li {
   margin-bottom: 0.5em;
-  font-size: 1.05em;
+  font-size: 1.0em;
 }
 
 /* 強調 */
